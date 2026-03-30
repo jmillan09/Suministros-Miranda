@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Contacto — Suministros Miranda 200 LLC. Comuníquese con nuestro equipo técnico especializado para asesoramiento y propuestas de proyectos industriales.">
+  <title>Contacto — Suministros Miranda 200 LLC</title>
+  <link rel="icon" type="image/png" href="IMAGENES/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar solid" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="IMAGENES/logoSinFondo3.png" alt="Suministros Miranda 200 LLC" class="logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback" style="display:none;">SUMINISTROS MIRANDA 200</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="nosotros.html" class="nav-link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="servicios.html" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="contacto.html" class="nav-link btn-red active" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+        </svg>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <span>/</span>
+        <span data-i18n="ctc.breadcrumb">Contacto</span>
+      </div>
+      <h1 data-i18n="ctc.ph-title"><span style="color:var(--red);">Contacto</span></h1>
+      <p data-i18n="ctc.ph-desc">En Suministros Miranda 200 LLC estamos disponibles para atender sus requerimientos con
+        rapidez, precisión y profesionalismo.</p>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT SECTION ═══ -->
+  <section class="contact-section section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- ── Info Column ── -->
+        <div class="contact-info">
+          <div class="section-label" style="color:var(--red);" data-i18n="ctc.info-label">Comuníquese con Nosotros</div>
+          <h2 data-i18n="ctc.info-title">Estamos Listos<br>para Atenderle</h2>
+          <p class="lead" data-i18n="ctc.info-lead">
+            Comuníquese directamente con nuestro equipo técnico especializado.
+            Estamos disponibles para asesorarle y brindarle una propuesta integral
+            adaptada a sus requerimientos operativos específicos.
+          </p>
+
+          <div class="contact-cards">
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-card-label" data-i18n="ctc.card1-label">Correo Electrónico</div>
+                <a href="mailto:info@miranda200llc.com" class="contact-card-value">info@miranda200llc.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-card-label" data-i18n="ctc.card3-label">Venezuela</div>
+                <address class="contact-card-value">Av. Francisco de Miranda, Edif. Palmira, Chacao, Caracas</address>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-card-label" data-i18n="ctc.card4-label">United States</div>
+                <address class="contact-card-value">E 2nd St, Ste 7000, Casper, WY, United States</address>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="response-badge">
+            <div class="response-badge-icon">⚡</div>
+            <div>
+              <h4 data-i18n="ctc.response-title">Respuesta Rápida Garantizada</h4>
+              <p data-i18n="ctc.response-desc">Nuestro equipo responde consultas técnicas en menos de 24 horas hábiles.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="IMAGENES/logoSinFondo3.png" alt="Suministros Miranda 200 LLC" class="footer-logo"
+            onerror="this.style.display='none'">
+          <p data-i18n="footer.desc">Empresa de ingeniería industrial especializada en metalmecánica, suministro químico
+            y tratamiento de aguas para el sector energético.</p>
+          <div class="footer-social">
+            <a href="mailto:info@miranda200llc.com" class="social-link" aria-label="Email"><svg viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav-heading">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.svc-heading">Servicios</h4>
+          <ul>
+            <li><a href="servicios.html#metalmecanica" data-i18n="footer.svc.metal">Metalmecánica</a></li>
+            <li><a href="servicios.html#quimica" data-i18n="footer.svc.chem">Suministro Químico</a></li>
+            <li><a href="servicios.html#aguas" data-i18n="footer.svc.water">Tratamiento de Aguas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact-heading">Contacto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            <a href="mailto:info@miranda200llc.com">info@miranda200llc.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+            <address>Venezuela &amp; United States</address>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 — SUMINISTROS MIRANDA 200 LLC. Todos los derechos reservados.</p>
+        <span class="footer-asme"><span class="asme-dot">●</span> ASME Certified S &amp; U</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

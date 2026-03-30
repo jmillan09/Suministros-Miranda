@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nosotros — Suministros Miranda 200 LLC. Empresa fundada en 2011 con certificación ASME, especializada en soluciones integrales para la industria petrolera venezolana e internacional.">
+  <title>Nosotros — Suministros Miranda 200 LLC</title>
+  <link rel="icon" type="image/png" href="IMAGENES/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar solid" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="IMAGENES/logoSinFondo3.png" alt="Suministros Miranda 200 LLC" class="logo-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback" style="display:none;">SUMINISTROS MIRANDA 200</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"     class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="nosotros.html"  class="nav-link active" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="servicios.html" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="contacto.html"  class="nav-link btn-red" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="page-header-bg" style="background-image:url('IMAGENES/ChatGPT-Image-1-mar-2026-01_01_02-p.m.png');"></div>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <span>/</span>
+        <span data-i18n="nos.breadcrumb">Nosotros</span>
+      </div>
+      <h1 data-i18n="nos.ph-title">¿<span style="color:var(--red);">Quiénes</span> Somos?</h1>
+      <p data-i18n="nos.ph-desc">Una empresa venezolana con presencia internacional, comprometida con la excelencia operacional en la industria energética desde 2011.</p>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT INTRO ═══ -->
+  <section class="about-intro">
+    <div class="container">
+      <div class="about-intro-grid">
+
+        <div class="about-intro-content animate-fade-up">
+          <div class="section-label" data-i18n="nos.history-label">Nuestra Historia</div>
+          <h2 data-i18n="nos.history-title">Desde 2011 al Servicio de la <span style="color:var(--red);">Industria</span></h2>
+          <p data-i18n="nos.p1">
+            Somos una empresa fundada en el año 2011, que nace con la finalidad de suministrar
+            repuestos, productos y servicios especializados tanto para la industria privada como
+            pública. Nuestra propuesta se distingue por combinar una extensa trayectoria en la
+            ejecución de proyectos para la industria petrolera con una infraestructura técnica
+            de vanguardia.
+          </p>
+          <p data-i18n="nos.p2">
+            En Suministros Miranda 200 LLC garantizamos los más altos estándares de seguridad
+            y calidad a nivel global, sirviendo como socio estratégico de confianza para las
+            principales operadoras del sector energético venezolano e internacional.
+          </p>
+
+          <div class="info-card accent-gold">
+            <div class="info-card-icon">🏅</div>
+            <div>
+              <h4 data-i18n="nos.ic1-title">Acreditación ASME — Sellos S y U</h4>
+              <p data-i18n="nos.ic1-desc">Certificación de la American Society of Mechanical Engineers para manufactura de recipientes a presión y calderas de potencia. Garantía de cumplimiento con los más exigentes estándares de seguridad y calidad a nivel global.</p>
+            </div>
+          </div>
+
+          <div class="info-card accent-blue">
+            <div class="info-card-icon">⚙️</div>
+            <div>
+              <h4 data-i18n="nos.ic2-title">Solidez Operativa y Experiencia Comprobada</h4>
+              <p data-i18n="nos.ic2-desc">Amplio historial de proyectos ejecutados con éxito para la principal operadora del país. Experiencia en fabricación de componentes críticos y sistemas complejos en entornos de crudo pesado y extrapesado (8°-23° API).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-intro-image animate-fade-up" style="animation-delay:0.15s;">
+          <div class="about-image-wrapper" style="aspect-ratio:3/4; max-width:440px; margin-left:auto;">
+            <img src="IMAGENES/ChatGPT-Image-1-mar-2026-01_01_02-p.m.png"
+                 alt="Equipo técnico Suministros Miranda 200"
+                 onerror="this.src='IMAGENES/trabajador-de-caldera-editado.jpg'">
+            <div class="about-badge">
+              <span class="about-badge-num">+14</span>
+              <span class="about-badge-label" data-i18n="nos.badge-label">Años de Experiencia</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ NUMBERS ═══ -->
+  <section class="numbers-section">
+    <div class="container">
+      <div class="numbers-grid">
+        <div class="number-item">
+          <span class="number-value" data-target="14" data-prefix="+">+14</span>
+          <span class="number-label" data-i18n="nos.stats.years">Años de Trayectoria</span>
+        </div>
+        <div class="number-item">
+          <span class="number-value">ASME</span>
+          <span class="number-label" data-i18n="nos.stats.cert">Certificación Internacional</span>
+        </div>
+        <div class="number-item">
+          <span class="number-value" data-target="10" data-prefix="+">+10</span>
+          <span class="number-label" data-i18n="nos.stats.pdvsa">Proyectos con PDVSA</span>
+        </div>
+        <div class="number-item">
+          <span class="number-value" data-target="2">2</span>
+          <span class="number-label" data-i18n="nos.stats.countries">Países de Operación</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MISSION VISION ═══ -->
+  <section class="mv-section section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" style="color:var(--red);" data-i18n="mv.label">Nuestra Filosofía</div>
+        <h2 class="section-title on-light" data-i18n="mv.title">Misión, Visión y Políticas de Calidad</h2>
+      </div>
+      <div class="mv-grid">
+
+        <div class="mv-card animate-fade-up">
+          <div class="mv-num">01</div>
+          <h3 data-i18n="mv.mission-title">Misión</h3>
+          <p data-i18n="mv.mission-body">Brindar a nuestros clientes soluciones integrales a la medida de sus necesidades,
+          que abarquen proyectos de instalación metalmecánica, dosificación y tratamientos
+          químicos, con asistencia técnica especializada, cumpliendo con los más altos
+          estándares de calidad y seguridad industrial.</p>
+        </div>
+
+        <div class="mv-card animate-fade-up" style="animation-delay:0.12s;">
+          <div class="mv-num">02</div>
+          <h3 data-i18n="mv.vision-title">Visión</h3>
+          <p data-i18n="mv.vision-body">Convertirnos en referencia líder en el suministro de soluciones integrales en el
+          sector industrial petrolero, operación de servicio, dosificación y tratamientos
+          químicos, expandiendo nuestra presencia a nivel internacional con excelencia técnica
+          y compromiso con la seguridad operacional.</p>
+        </div>
+
+        <div class="mv-card animate-fade-up" style="animation-delay:0.24s;">
+          <div class="mv-num">03</div>
+          <h3 data-i18n="mv.quality-title">Políticas de Calidad</h3>
+          <p data-i18n="mv.quality-body">Brindamos un servicio efectivo en proyectos de montaje, instalación, suministro y
+          mantenimiento de equipos y materiales para la industria petrolera, garantizando una
+          calidad diferenciadora que busca siempre la completa satisfacción de nuestros clientes
+          y la mejora continua de nuestros procesos.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DIFFERENTIATORS ═══ -->
+  <section class="diff-section section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" style="color:var(--red);" data-i18n="diff.label">Diferenciadores Clave</div>
+        <h2 class="section-title on-light" data-i18n="diff.title">Lo Que Nos Distingue</h2>
+        <p class="section-desc on-light" data-i18n="diff.desc">Factores que posicionan a Suministros Miranda 200 como el socio estratégico de confianza para la industria energética.</p>
+      </div>
+      <div class="diff-grid">
+
+        <div class="diff-card animate-fade-up">
+          <div class="diff-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4 data-i18n="diff.cert-title">Certificación ASME</h4>
+          <p data-i18n="diff.cert-desc">Sellos S y U para recipientes a presión y calderas de potencia bajo normas internacionales de máxima exigencia.</p>
+        </div>
+
+        <div class="diff-card animate-fade-up" style="animation-delay:0.1s;">
+          <div class="diff-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h4 data-i18n="diff.intl-title">Presencia Internacional</h4>
+          <p data-i18n="diff.intl-desc">Oficinas en Venezuela y Estados Unidos para atender proyectos en múltiples jurisdicciones con respaldo legal y operativo.</p>
+        </div>
+
+        <div class="diff-card animate-fade-up" style="animation-delay:0.2s;">
+          <div class="diff-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h4 data-i18n="diff.intgr-title">Soluciones Integrales</h4>
+          <p data-i18n="diff.intgr-desc">Combinamos metalmecánica y química para ofrecer soluciones completas, reduciendo la necesidad de múltiples contratistas.</p>
+        </div>
+
+        <div class="diff-card animate-fade-up" style="animation-delay:0.3s;">
+          <div class="diff-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h4 data-i18n="diff.pdvsa-title">Trayectoria PDVSA</h4>
+          <p data-i18n="diff.pdvsa-desc">Más de una década de proyectos exitosos en las principales refinerías y complejos industriales del país.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 data-i18n="cta.nos.title">¿Listo para Trabajar con Nosotros?</h2>
+        <p data-i18n="cta.nos.desc">Comuníquese con nuestro equipo y descubra cómo podemos optimizar sus procesos industriales con soluciones a la medida.</p>
+        <div class="cta-actions">
+          <a href="contacto.html"  class="btn btn-red btn-lg" data-i18n="cta.nos.btn1">Contáctenos</a>
+          <a href="servicios.html" class="btn btn-outline-white btn-lg" data-i18n="cta.nos.btn2">Ver Servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="IMAGENES/logoSinFondo3.png" alt="Suministros Miranda 200 LLC" class="footer-logo" onerror="this.style.display='none'">
+          <p data-i18n="footer.desc">Empresa de ingeniería industrial especializada en metalmecánica, suministro químico y tratamiento de aguas para el sector energético.</p>
+          <div class="footer-social">
+            <a href="mailto:info@miranda200llc.com" class="social-link" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav-heading">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.svc-heading">Servicios</h4>
+          <ul>
+            <li><a href="servicios.html#metalmecanica" data-i18n="footer.svc.metal">Metalmecánica</a></li>
+            <li><a href="servicios.html#quimica" data-i18n="footer.svc.chem">Suministro Químico</a></li>
+            <li><a href="servicios.html#aguas" data-i18n="footer.svc.water">Tratamiento de Aguas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact-heading">Contacto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:info@miranda200llc.com">info@miranda200llc.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <address>Av. Francisco de Miranda, Edif. Palmira, Chacao, Caracas, Venezuela</address>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <address>E 2nd St, Ste 7000, Casper, WY, United States</address>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 — SUMINISTROS MIRANDA 200 LLC. Todos los derechos reservados.</p>
+        <span class="footer-asme"><span class="asme-dot">●</span> ASME Certified S &amp; U</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios — Suministros Miranda 200 LLC. Metalmecánica ASME, Suministro y Aplicación Química, Tratamiento de Aguas para la industria petrolera y energética.">
+  <title>Servicios — Suministros Miranda 200 LLC</title>
+  <link rel="icon" type="image/png" href="IMAGENES/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar solid" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="IMAGENES/logoSinFondo3.png" alt="Suministros Miranda 200 LLC" class="logo-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="logo-text-fallback" style="display:none;">SUMINISTROS MIRANDA 200</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html"     class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="nosotros.html"  class="nav-link" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="servicios.html" class="nav-link active" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="contacto.html"  class="nav-link btn-red" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="page-header-bg" style="background-image:url('IMAGENES/unidad-industrial.png');"></div>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <span>/</span>
+        <span data-i18n="svc.breadcrumb">Servicios</span>
+      </div>
+      <h1 data-i18n="svc.ph-title">Nuestros <span style="color:var(--red);">Servicios</span></h1>
+      <p data-i18n="svc.ph-desc">Soluciones integrales de ingeniería para la industria energética y de procesos, con los más altos estándares de calidad y seguridad internacional.</p>
+    </div>
+  </section>
+
+  <!-- ═══ INTRO TEXT ═══ -->
+  <section style="background:var(--off-white); padding:56px 0;">
+    <div class="container">
+      <div style="max-width:760px; margin:0 auto; text-align:center;">
+        <p style="font-size:1.125rem; color:var(--text-dark-60); line-height:1.82;" data-i18n="svc.intro">
+          Contamos con un equipo técnico altamente calificado y con amplia experiencia en el sector
+          industrial, preparado para diseñar, ejecutar y supervisar soluciones integrales en el área
+          metalmecánica y tratamiento químico. Nuestra capacidad operativa y conocimiento especializado
+          garantizan eficiencia, confiabilidad y alto desempeño en cada proyecto.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICES DETAIL ═══ -->
+  <section class="services-detail">
+    <div class="container">
+
+      <!-- ── Metalmecánica ── -->
+      <div class="service-section-block" id="metalmecanica">
+        <div class="service-section-header">
+          <div class="svc-header-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <div class="svc-header-text">
+            <h2 data-i18n="svc.metal.title">Metalmecánica</h2>
+            <p data-i18n="svc.metal.sub">Fabricación, instalación y mantenimiento de equipos industriales de alta exigencia técnica.</p>
+          </div>
+        </div>
+
+        <div class="service-items-grid">
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.metal.item1">Instalación y reparación de calderas pirotubulares y acuotubulares</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.metal.item2">Fabricación de intercambiadores de calor (tubo y coraza, fin fan cooler)</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.metal.item3">Instrumentación, quemadores y sistemas de combustión</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.metal.item4">Reentubado de intercambiadores y calderas industriales</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.metal.item5">Fabricación de recipientes a presión bajo norma ASME Sección VIII</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.metal.item6">Mantenimiento correctivo y preventivo de equipos estáticos</p></div>
+        </div>
+
+        <div class="service-section-img">
+          <img src="IMAGENES/WhatsApp-Image-2026-02-26-aDCSDt-10.17.30-PM.jpeg"
+               alt="Metalmecánica industrial — Suministros Miranda 200"
+               onerror="this.src='IMAGENES/unidad-industrial.png'">
+        </div>
+      </div>
+
+      <!-- ── Suministro Químico ── -->
+      <div class="service-section-block" id="quimica">
+        <div class="service-section-header">
+          <div class="svc-header-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v11a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V3M3 9a9 9 0 0 0 9 9"/>
+            </svg>
+          </div>
+          <div class="svc-header-text">
+            <h2 data-i18n="svc.chem.title">Suministro y Aplicación Química</h2>
+            <p data-i18n="svc.chem.sub">Tratamientos especializados para crudos, calderas y sistemas de proceso industrial.</p>
+          </div>
+        </div>
+
+        <div class="service-items-grid">
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.chem.item1">Tratamientos de crudos e instalación y reparación de sistemas de dosificación</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.chem.item2">Tratamiento especializado para calderas, aguas crudas y osmotizadas</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.chem.item3">Evaluaciones in situ para optimizar aplicación y pruebas de desempeño</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.chem.item4">Mantenimiento de equipos de dosificación y automatización de inyecciones</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.chem.item5">Demulsificantes y tratamientos para crudos extra-pesados (8°-23° API)</p></div>
+          <div class="service-item"><div class="service-item-dot"></div><p data-i18n="svc.chem.item6">Programas de monitoreo y control de corrosión e incrustaciones</p></div>
+        </div>
+
+        <div class="service-section-img">
+          <img src="IMAGENES/industria-quimica.jpg"
+               alt="Suministro y aplicación química — Suministros Miranda 200"
+               onerror="this.parentElement.style.background='var(--gray-100)'">
+        </div>
+      </div>
+
+      <!-- ── Tratamiento de Aguas ── -->
+      <div class="service-section-block" id="aguas">
+        <div class="service-section-header">
+          <div class="svc-header-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+            </svg>
+          </div>
+          <div class="svc-header-text">
+            <h2 data-i18n="svc.water.title">Tratamiento de Aguas</h2>
+            <p data-i18n="svc.water.sub">Soluciones completas para agua cruda, calderas, procesos industriales y efluentes.</p>
+          </div>
+        </div>
+
+        <div class="water-grid">
+          <div class="water-card wr">
+            <div class="water-card-header">
+              <div class="water-dot r"></div>
+              <h4 data-i18n="svc.water.raw-title">Agua Cruda</h4>
+            </div>
+            <div class="water-item"><div class="service-item-dot"></div><p data-i18n="svc.water.raw-item1">Coagulación y floculación</p></div>
+            <div class="water-item"><div class="service-item-dot"></div><p data-i18n="svc.water.raw-item2">Ósmosis inversa</p></div>
+            <div class="water-item"><div class="service-item-dot"></div><p data-i18n="svc.water.raw-item3">Tratamientos de clarificación</p></div>
+            <div class="water-item"><div class="service-item-dot"></div><p data-i18n="svc.water.raw-item4">Filtración y ablandamiento</p></div>
+          </div>
+          <div class="water-card wb">
+            <div class="water-card-header">
+              <div class="water-dot b"></div>
+              <h4 data-i18n="svc.water.boiler-title">Agua de Calderas</h4>
+            </div>
+            <div class="water-item"><div class="service-item-dot" style="background:var(--navy);"></div><p data-i18n="svc.water.boiler-item1">Pre-tratamiento especializado</p></div>
+            <div class="water-item"><div class="service-item-dot" style="background:var(--navy);"></div><p data-i18n="svc.water.boiler-item2">Limpiezas químicas</p></div>
+            <div class="water-item"><div class="service-item-dot" style="background:var(--navy);"></div><p data-i18n="svc.water.boiler-item3">Control de corrosión e incrustaciones</p></div>
+            <div class="water-item"><div class="service-item-dot" style="background:var(--navy);"></div><p data-i18n="svc.water.boiler-item4">Tratamiento de condensado</p></div>
+          </div>
+          <div class="water-card wt">
+            <div class="water-card-header">
+              <div class="water-dot t"></div>
+              <h4 data-i18n="svc.water.proc-title">Aguas de Proceso y Efluentes</h4>
+            </div>
+            <div class="water-item"><div class="service-item-dot" style="background:#0D9488;"></div><p data-i18n="svc.water.proc-item1">Inhibidores de corrosión</p></div>
+            <div class="water-item"><div class="service-item-dot" style="background:#0D9488;"></div><p data-i18n="svc.water.proc-item2">Biocidas y programas microbiológicos</p></div>
+            <div class="water-item"><div class="service-item-dot" style="background:#0D9488;"></div><p data-i18n="svc.water.proc-item3">Tratamiento de efluentes industriales</p></div>
+            <div class="water-item"><div class="service-item-dot" style="background:#0D9488;"></div><p data-i18n="svc.water.proc-item4">Monitoreo y control de parámetros</p></div>
+          </div>
+        </div>
+
+        <div class="service-section-img">
+          <img src="IMAGENES/analisis-rapidos.jpg"
+               alt="Tratamiento de aguas industriales — Suministros Miranda 200"
+               onerror="this.src='IMAGENES/Gemini_Generated_Image_tvtrhrtvtrhrtvtr.png'">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ ADVANTAGES ═══ -->
+  <section class="advantages-section section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" style="color:rgba(200,16,46,0.85);" data-i18n="adv.label">Por Qué Elegirnos</div>
+        <h2 class="section-title on-navy" data-i18n="adv.title">Ventajas de Suministros Miranda 200</h2>
+        <p class="section-desc on-dark" data-i18n="adv.desc">Factores que hacen de Suministros Miranda 200 el aliado estratégico ideal para su industria.</p>
+      </div>
+      <div class="advantages-grid">
+
+        <div class="advantage-card animate-fade-up">
+          <div class="advantage-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4 data-i18n="adv.cert-title">Certificación ASME</h4>
+          <p data-i18n="adv.cert-desc">Diseño y fabricación conforme al Código ASME, el estándar de referencia global en la industria petrolera y petroquímica para equipos a presión.</p>
+        </div>
+
+        <div class="advantage-card animate-fade-up" style="animation-delay:0.1s;">
+          <div class="advantage-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h4 data-i18n="adv.exp-title">Experiencia Comprobada</h4>
+          <p data-i18n="adv.exp-desc">Más de 14 años y 10+ proyectos exitosos con PDVSA en las principales refinerías del país. Trayectoria documentada y referencias disponibles.</p>
+        </div>
+
+        <div class="advantage-card animate-fade-up" style="animation-delay:0.2s;">
+          <div class="advantage-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v11a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V3M3 9a9 9 0 0 0 9 9"/></svg>
+          </div>
+          <h4 data-i18n="adv.chem-title">Suministro Químico Especializado</h4>
+          <p data-i18n="adv.chem-desc">Formulaciones y tratamientos químicos específicos para crudos pesados y extrapesados (8°-23° API), con evaluaciones in situ y seguimiento continuo.</p>
+        </div>
+
+        <div class="advantage-card animate-fade-up" style="animation-delay:0.1s;">
+          <div class="advantage-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h4 data-i18n="adv.field-title">Acompañamiento Técnico en Campo</h4>
+          <p data-i18n="adv.field-desc">Personal técnico calificado permanentemente disponible para evaluaciones periódicas, optimización y seguimiento continuo de cada proyecto.</p>
+        </div>
+
+        <div class="advantage-card animate-fade-up" style="animation-delay:0.2s;">
+          <div class="advantage-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h4 data-i18n="adv.intl-title">Presencia Internacional</h4>
+          <p data-i18n="adv.intl-desc">Oficinas en Venezuela y Estados Unidos, con capacidad para estructurar contratos en múltiples jurisdicciones y atender proyectos internacionales.</p>
+        </div>
+
+        <div class="advantage-card animate-fade-up" style="animation-delay:0.3s;">
+          <div class="advantage-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h4 data-i18n="adv.intgr-title">Solución Integral Bajo un Solo Techo</h4>
+          <p data-i18n="adv.intgr-desc">Combinamos metalmecánica y química en un solo proveedor, simplificando la gestión de contratos y reduciendo tiempos de respuesta operativa.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PORTFOLIO TABLE ═══ -->
+  <section class="portfolio-section section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label" style="color:var(--red);" data-i18n="port2.label">Trayectoria Comprobada</div>
+        <h2 class="section-title on-light" data-i18n="port2.title">Portafolio de Experiencias</h2>
+        <p class="section-desc on-light" data-i18n="port2.desc">Más de una década ejecutando proyectos exitosos en las principales instalaciones industriales del país.</p>
+      </div>
+      <div class="portfolio-table-wrapper">
+        <table class="portfolio-table">
+          <thead>
+            <tr>
+              <th data-i18n="port.th-client">Cliente</th>
+              <th data-i18n="port.th-install">Instalación</th>
+              <th data-i18n="port.th-work">Trabajo Realizado</th>
+              <th data-i18n="port.th-type">Tipo</th>
+              <th data-i18n="port.th-year">Año</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>PDVSA</td><td>Refinería Puerto La Cruz</td><td data-i18n="port.row1-work">Instalación de Calderas</td><td><span class="tag-metal" data-i18n="tag.metal">Metalmecánica</span></td><td>2023</td></tr>
+            <tr><td>PDVSA</td><td>Refinería El Chaure</td><td data-i18n="port.row2-work">Tratamiento Agua Cruda</td><td><span class="tag-quim" data-i18n="tag.chem">Tratamiento Químico</span></td><td>2023</td></tr>
+            <tr><td>PDVSA</td><td>Refinería Amuay</td><td data-i18n="port.row3-work">Reparación Intercambiadores Fin Fan</td><td><span class="tag-metal" data-i18n="tag.metal">Metalmecánica</span></td><td>2022</td></tr>
+            <tr><td>PDVSA</td><td>Refinería Cardón</td><td data-i18n="port.row4-work">Up/Down Stream Demulsificantes</td><td><span class="tag-quim" data-i18n="tag.chem">Tratamiento Químico</span></td><td>2022</td></tr>
+            <tr><td>PDVSA</td><td>Petrocedeño</td><td data-i18n="port.row5-work">Metalmecánica + Tratamiento Químico</td><td><span class="tag-mix" data-i18n="tag.mix">Mixto</span></td><td>2021</td></tr>
+            <tr><td>PDVSA</td><td>Mejorador Petrocedeño</td><td data-i18n="port.row6-work">Agua de Calderas + Enfriamiento</td><td><span class="tag-quim" data-i18n="tag.chem">Tratamiento Químico</span></td><td>2021</td></tr>
+            <tr><td>PDVSA</td><td>Refinería Amuay</td><td data-i18n="port.row7-work">Fabricación de Quemadores</td><td><span class="tag-metal" data-i18n="tag.metal">Metalmecánica</span></td><td>2020</td></tr>
+            <tr><td>PDVSA</td><td>Refinería Puerto La Cruz</td><td data-i18n="port.row8-work">Tratamiento Aguas de Proceso</td><td><span class="tag-quim" data-i18n="tag.chem">Tratamiento Químico</span></td><td>2020</td></tr>
+            <tr><td>PDVSA</td><td>Refinería El Palito</td><td data-i18n="port.row9-work">Mantenimiento Calderas Pirotubulares</td><td><span class="tag-metal" data-i18n="tag.metal">Metalmecánica</span></td><td>2019</td></tr>
+            <tr><td>PDVSA</td><td>Refinería Cardón</td><td data-i18n="port.row10-work">Haz Tubular Intercambiador</td><td><span class="tag-metal" data-i18n="tag.metal">Metalmecánica</span></td><td>2019</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 data-i18n="cta.svc.title">¿Necesita Asesoría o Cotización?</h2>
+        <p data-i18n="cta.svc.desc">Nuestro equipo de expertos está listo para brindarle soluciones integrales a la medida de sus necesidades operativas y de mantenimiento.</p>
+        <div class="cta-actions">
+          <a href="contacto.html" class="btn btn-red btn-lg" data-i18n="cta.svc.btn1">Contáctenos Hoy</a>
+          <a href="mailto:info@miranda200llc.com" class="btn btn-outline-white btn-lg">info@miranda200llc.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="IMAGENES/logoSinFondo3.png" alt="Suministros Miranda 200 LLC" class="footer-logo" onerror="this.style.display='none'">
+          <p data-i18n="footer.desc">Empresa de ingeniería industrial especializada en metalmecánica, suministro químico y tratamiento de aguas para el sector energético.</p>
+          <div class="footer-social">
+            <a href="mailto:info@miranda200llc.com" class="social-link" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav-heading">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.svc-heading">Servicios</h4>
+          <ul>
+            <li><a href="#metalmecanica" data-i18n="footer.svc.metal">Metalmecánica</a></li>
+            <li><a href="#quimica" data-i18n="footer.svc.chem">Suministro Químico</a></li>
+            <li><a href="#aguas" data-i18n="footer.svc.water">Tratamiento de Aguas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact-heading">Contacto</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:info@miranda200llc.com">info@miranda200llc.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <address>Av. Francisco de Miranda, Chacao, Venezuela</address>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 — SUMINISTROS MIRANDA 200 LLC. Todos los derechos reservados.</p>
+        <span class="footer-asme"><span class="asme-dot">●</span> ASME Certified S &amp; U</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
